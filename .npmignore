@@ -1,0 +1,7 @@
+/script
+.gitignore
+yarn.lock
+package-lock.json
+.editorconfig
+*.md
+

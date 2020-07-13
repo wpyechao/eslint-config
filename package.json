@@ -1,0 +1,52 @@
+{
+  "name": "@dragon/eslint-config",
+  "version": "0.2.6",
+  "description": "ESLint Shareable Config",
+  "main": "index.js",
+  "author": {
+    "name": "pingyechao"
+  },
+  "files": [
+    "src",
+    "base.js",
+    "index.js",
+    "prettier.js",
+    "react.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "bugs": {
+    "url": "http://git.induschain.cn/web/eslint-config.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.induschain.cn/web/eslint-config.git/eslint-config.git"
+  },
+  "homepage": "http://git.induschain.cn/web/eslint-config.git/eslint-config.git#readme",
+  "keywords": [
+    "eslint",
+    "config",
+    "dragon",
+    "react",
+    "typescript",
+    "prettier"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": ">=7.2.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "babel-eslint": "10.x",
+    "confusing-browser-globals": "^1.0.9",
+    "eslint": "6.x",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prettier": "^1.19.1"
+  },
+  "license": "MIT"
+}
