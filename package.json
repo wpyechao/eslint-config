@@ -1,5 +1,5 @@
 {
-  "name": "@yc/eslint-config",
+  "name": "yc-eslint-config",
   "version": "1.0.0",
   "description": "ESLint Shareable Config",
   "main": "index.js",
