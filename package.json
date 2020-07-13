@@ -1,6 +1,6 @@
 {
-  "name": "@dragon/eslint-config",
-  "version": "0.2.6",
+  "name": "@yc/eslint-config",
+  "version": "1.0.0",
   "description": "ESLint Shareable Config",
   "main": "index.js",
   "author": {
@@ -16,14 +16,9 @@
     "README.md",
     "LICENSE"
   ],
-  "bugs": {
-    "url": "http://git.induschain.cn/web/eslint-config.git/issues"
-  },
   "repository": {
-    "type": "git",
-    "url": "http://git.induschain.cn/web/eslint-config.git/eslint-config.git"
+    "type": "git"
   },
-  "homepage": "http://git.induschain.cn/web/eslint-config.git/eslint-config.git#readme",
   "keywords": [
     "eslint",
     "config",
