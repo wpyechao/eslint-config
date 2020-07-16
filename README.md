@@ -1,17 +1,17 @@
 # @yc/eslint-config
 
-<a name="yc-eslint-config-eslint"></a>
+<a name="pyc-eslint"></a>
 ## eslint 规则
 
-<a name="yc-eslint-config-eslint-base"></a>
+<a name="pyc-eslint-base"></a>
 ### base（基础配置）
 
-<a name="yc-eslint-config-eslint-base-install"></a>
+<a name="pyc-eslint-base-install"></a>
 ##### 安装
 
 ```bash
 # npm
-npm install yc-eslint-config  --save-dev
+npm install eslint-config-pyc  --save-dev
 ```
 ##### 配置
 
@@ -20,11 +20,11 @@ npm install yc-eslint-config  --save-dev
 ```javascript
 module.exports = {
   extends: [
-    "yc-eslint-config"
+    "pyc"
   ]
 }
 ```
-<a name="yc-eslint-config-ts"></a>
+<a name="pyc-ts"></a>
 ### typescript
 
 ##### 配置
@@ -33,14 +33,14 @@ module.exports = {
 ``` javascript
 {
   extends: [
-    "yc-eslint-config",
-    "yc-eslint-config/typescript",
+    "pyc",
+    "pyc/typescript",
   ]
 }
 
 ```
 
-<a name="yc-eslint-config-react"></a>
+<a name="pyc-react"></a>
 ### react
 
 ##### 配置
@@ -50,13 +50,13 @@ module.exports = {
 ``` javascript
 {
   extends: [
-    "yc-eslint-config/react"
+    "pyc/react"
   ]
 }
 
 ```
 
-<a name="yc-eslint-config-prettier"></a>
+<a name="pyc-prettier"></a>
 ## 配合 prettier
 
 ##### 配置
@@ -64,7 +64,7 @@ module.exports = {
 在`.eslintrc.js`文件中添加以下内容
 
 ```javascript
-const config = require('yc-eslint-config/prettier');
+const config = require('pyc/prettier');
 
 module.exports = {
   ...config,
