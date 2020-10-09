@@ -12,6 +12,7 @@
     "index.js",
     "prettier.js",
     "react.js",
+    "typescript.js",
     "package.json",
     "README.md",
     "LICENSE"
