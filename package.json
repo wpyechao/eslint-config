@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pyc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint Shareable Config",
   "main": "index.js",
   "author": {
@@ -34,12 +34,13 @@
   "dependencies": {
     "@typescript-eslint/parser": "^2.23.0",
     "confusing-browser-globals": "^1.0.9",
-    "eslint": "7.11.0",
+    "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^4.1.2"
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.4.1"
   },
   "license": "MIT"
 }
